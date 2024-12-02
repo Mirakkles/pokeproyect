@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.sidebar {
+  background-color: red;  
+  color: white;           
+  width: 200px;            
+  position: fixed;      
+  top: 0;                
+  bottom: 0;           
+  left: 0;                 
+  padding-top: 20px;       
+}
+
+.sidebar ul {
+  list-style-type: none;   /* Quitar los puntos de lista */
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;         /* Espaciado entre los ítems */
+}
+
+.sidebar a {
+  color: white;            /* Texto blanco en los enlaces */
+  text-decoration: none;   /* Quitar subrayado */
+}
+
+.sidebar a:hover {
+  color: yellow;           /* Cambiar color al pasar el mouse */
+}
+
+.window-buttons {
+  display: flex;
+  justify-content: flex-end;
+  background: #282c34;
+  padding: 5px;
+}
+
+.button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.button.minimize:hover {
+  color: yellow;
+}
+
+.button.maximize:hover {
+  color: green;
+}
+
+.button.close:hover {
+  color: red;
+}
+
